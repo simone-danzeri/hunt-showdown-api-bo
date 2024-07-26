@@ -1,0 +1,50 @@
+@use '_variables.scss' as *;
+@import '~bootstrap/scss/bootstrap';
+
+/* #region HEADER */
+.ms-bg-primary {
+    background-color: $background_colour !important;
+}
+
+.ms-font-white{
+    color: $font_colour !important;
+}
+
+.ms-bg-secondary{
+    background-color: antiquewhite !important;
+}
+
+.logo-hunt{
+    width: 5vw;
+    min-width: 70px
+}
+
+.ms-nav-position{
+    position: sticky;
+    top: 0;
+}
+
+/* #region WELCOME PAGE */
+.ms-full-page {
+    height: 100vh;
+}
+
+.ms-title-location{
+    margin-top: 35vh;
+}
+
+
+/* #region LOGIN PAGE */
+.ms-btn {
+    background-color: $background_colour;
+    color: $font_colour;
+    border-color: $font_colour;
+}
+
+.ms-card-border{
+    border: none !important;
+}
+
+.ms-login-mt{
+    margin-top: 15vh !important;
+}
