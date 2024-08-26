@@ -187,33 +187,87 @@ return [
         "summary" => "Reduce the time needed to bandage."
     ],
     [
-        "trait_name" => "",
-        "trait_img" => "traits/",
-        "points" => 0,
-        "summary" => ""
+        "trait_name" => "Pitcher",
+        "trait_img" => "traits/pitcher.webp",
+        "points" => 6,
+        "summary" => "Increased throwing range for all items using the aim helper."
     ],
     [
-        "trait_name" => "",
-        "trait_img" => "traits/",
-        "points" => 0,
-        "summary" => ""
+        "trait_name" => "Poacher",
+        "trait_img" => "traits/poacher.webp",
+        "points" => 1,
+        "summary" => "Place and disarm traps quietly."
     ],
     [
-        "trait_name" => "",
-        "trait_img" => "traits/",
-        "points" => 0,
-        "summary" => ""
+        "trait_name" => "Poison Sense",
+        "trait_img" => "traits/poison_sense.webp",
+        "points" => 1,
+        "summary" => "You can see nearby poisoned Hunters while in Dark Sight. Also applies to Beetle view (150m)."
     ],
     [
-        "trait_name" => "",
-        "trait_img" => "traits/",
-        "points" => 0,
-        "summary" => ""
+        "trait_name" => "Quartermaster",
+        "trait_img" => "traits/quartermaster.webp",
+        "points" => 6,
+        "summary" => "Can equip a medium slot weapon in addition to a large slot weapon."
     ],
     [
-        "trait_name" => "",
-        "trait_img" => "traits/",
-        "points" => 0,
-        "summary" => ""
+        "trait_name" => "Resilience",
+        "trait_img" => "traits/resilience.webp",
+        "points" => 3,
+        "summary" => "Your Hunter is revived with up to full Health."
+    ],
+    [
+        "trait_name" => "Salveskin",
+        "trait_img" => "traits/salveskin.webp",
+        "points" => 3,
+        "summary" => "Reduces fire damage and burn speed by 25%, even when downed."
+    ],
+    [
+        "trait_name" => "Scopesmith",
+        "trait_img" => "traits/scopesmith.webp",
+        "points" => 2,
+        "summary" => "Remain in scope view after firing a shot while using any weapon with a scope."
+    ],
+    [
+        "trait_name" => "Serpent",
+        "trait_img" => "traits/serpent.webp",
+        "points" => 4,
+        "summary" => "Using Dark Sight, interact with nearby Clues, Rifts, Banishable Targets, and abandoned Bounty from a safe distance (25m). SOLO: Interaction range increased (50m). "
+    ],
+    [
+        "trait_name" => "Silent Killer",
+        "trait_img" => "traits/silent_killer.webp",
+        "points" => 4,
+        "summary" => "Reduces the sound you make when performing melee attacks."
+    ],
+    [
+        "trait_name" => "Steady Aim",
+        "trait_img" => "traits/steady_aim.webp",
+        "points" => 2,
+        "summary" => "Weapon sway gradually lessens and stops when you're looking through a scope or aperture sights."
+    ],
+    [
+        "trait_name" => "Vigilant",
+        "trait_img" => "traits/vigilant.webp",
+        "points" => 1,
+        "summary" => "Nearby traps and active Beetles are highlighted in Dark Sight. Also applies to Beetle view (25m)."
+    ],
+    [
+        "trait_name" => "Vigor",
+        "trait_img" => "traits/vigor.webp",
+        "points" => 3,
+        "summary" => "While in Dark Sight, doubles the rate at which Health and Stamina regenerate."
+    ],
+    [
+        "trait_name" => "Vulture",
+        "trait_img" => "traits/vulture.webp",
+        "points" => 2,
+        "summary" => "When looting a dead hunter you will always receive a reward in money and replenish a missing consumable."
+    ],
+    [
+        "trait_name" => "Whispersmith",
+        "trait_img" => "traits/whispersmith.webp",
+        "points" => 1,
+        "summary" => "Reduces noise when selecting equipment."
     ],
 ];
