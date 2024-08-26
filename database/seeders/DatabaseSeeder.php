@@ -8,6 +8,7 @@ use Database\Seeders\MapSeeder;
 use Database\Seeders\GameModeSeeder;
 use Database\Seeders\GameTraitSeeder;
 use Database\Seeders\BossSeeder;
+use Database\Seeders\EnemySeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -29,6 +30,7 @@ class DatabaseSeeder extends Seeder
             GameModeSeeder::class,
             GameTraitSeeder::class,
             BossSeeder::class,
+            EnemySeeder::class,
         ]);
     }
 }
