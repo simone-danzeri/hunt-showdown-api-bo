@@ -7,6 +7,7 @@ use Illuminate\Database\Seeder;
 use Database\Seeders\MapSeeder;
 use Database\Seeders\GameModeSeeder;
 use Database\Seeders\GameTraitSeeder;
+use Database\Seeders\BossSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -25,8 +26,9 @@ class DatabaseSeeder extends Seeder
         // ]);
         $this->call([
             MapSeeder::class,
-            Game_Mode::class,
-            GameTrait::class,
+            GameModeSeeder::class,
+            GameTraitSeeder::class,
+            BossSeeder::class,
         ]);
     }
 }
