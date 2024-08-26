@@ -6,6 +6,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Database\Seeders\MapSeeder;
 use Database\Seeders\GameModeSeeder;
+use Database\Seeders\GameTraitSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -25,6 +26,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             MapSeeder::class,
             Game_Mode::class,
+            GameTrait::class,
         ]);
     }
 }
