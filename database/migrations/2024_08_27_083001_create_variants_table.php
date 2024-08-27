@@ -13,16 +13,16 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('weapons', function (Blueprint $table) {
+        Schema::create('variants', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('bullet_type_id')
+            $table->foreignId('weapon_id')
             ->constrained()
             ->onDelete('cascade');
             $table->foreignId('slot_id')
             ->constrained()
             ->onDelete('cascade');
-            $table->string('weapon_name')->unique();
-            $table->string('weapon_img')->nullable();
+            $table->string('variant_name')->unique();
+            $table->string('variant_img')->nullable();
             $table->unsignedTinyInteger('ammo_reserve');
             $table->unsignedSmallInteger('bullet_speed');
             $table->unsignedSmallInteger('sway');
@@ -43,6 +43,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('weapons');
+        Schema::dropIfExists('variants');
     }
 };

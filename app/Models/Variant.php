@@ -5,12 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Weapon extends Model
+class Variant extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'weapon_name',
-        'weapon_img',
+        'variant_name',
+        'variant_img',
         'ammo_reserve',
         'bullet_speed',
         'sway',
