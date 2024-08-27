@@ -13,17 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('legendary_skins', function (Blueprint $table) {
+        Schema::create('legendary_hunters', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('weapon_id')
-            ->constrained()
-            ->onDelete('cascade');
-            $table->foreignId('tool_id')
-            ->constrained()
-            ->onDelete('cascade');
-            $table->foreignId('consumable_id')
-            ->constrained()
-            ->onDelete('cascade');
             $table->foreignId('dlc_id')
             ->constrained()
             ->onDelete('cascade');
@@ -43,6 +34,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('legendary_skins');
+        Schema::dropIfExists('legendary_hunters');
     }
 };
