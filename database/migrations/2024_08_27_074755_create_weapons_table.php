@@ -24,10 +24,10 @@ return new class extends Migration
             $table->string('weapon_name')->unique();
             $table->string('weapon_img')->nullable();
             $table->unsignedTinyInteger('ammo_reserve');
-            $table->unsignedSmallInteger('bullet_speed');
-            $table->unsignedSmallInteger('sway');
+            $table->unsignedSmallInteger('bullet_speed')->nullable();
+            $table->unsignedSmallInteger('sway')->nullable();
             $table->unsignedSmallInteger('effective_range');
-            $table->unsignedTinyInteger('reload_time');
+            $table->unsignedTinyInteger('reload_time')->nullable();
             $table->unsignedSmallInteger('light_melee_dmg');
             $table->unsignedSmallInteger('heavy_melee_dmg');
             $table->unsignedSmallInteger('cost');

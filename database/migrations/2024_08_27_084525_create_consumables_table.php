@@ -22,7 +22,6 @@ return new class extends Migration
             $table->striing('img')->nullable();
             $table->unsignedSmallInteger('light_melee_dmg');
             $table->unsignedSmallInteger('heavy_melee_dmg');
-            $table->unsignedSmallInteger('heavy_melee_dmg');
             $table->unsignedSmallInteger('damage');
             $table->unsignedSmallInteger('effect_radius');
             $table->unsignedSmallInteger('effect_duration');
