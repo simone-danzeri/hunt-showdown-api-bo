@@ -8,6 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class ToolType extends Model
 {
     use HasFactory;
+    public function tools() {
+        return $this->hasMany(Tool::class);
+    }
     protected $fillable = [
         'name'
     ];

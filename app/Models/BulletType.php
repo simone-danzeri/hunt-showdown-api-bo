@@ -8,6 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class BulletType extends Model
 {
     use HasFactory;
+    public function weapons() {
+        return $this->hasMany(Weapon::class);
+    }
     protected $fillable = [
         'name'
     ];

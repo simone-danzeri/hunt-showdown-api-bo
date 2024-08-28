@@ -8,6 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class LegendaryHunter extends Model
 {
     use HasFactory;
+    public function dlc() {
+        return $this->belongsTo(Dlc::class);
+    }
     protected $fillable = [
         'name',
         'img',

@@ -8,6 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Consumable extends Model
 {
     use HasFactory;
+    public function consumable_type() {
+        return $this->belongsTo(ConsumableType::class);
+    }
+    public function legendary_skins() {
+        return $this->hasMany(LegendarySkin::class);
+    }
     protected $fillable = [
         'name',
         'img',

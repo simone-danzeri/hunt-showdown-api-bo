@@ -8,6 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Variant extends Model
 {
     use HasFactory;
+    public function slot() {
+        return $this->belongsTo(Slot::class);
+    }
+    public function weapon() {
+        return $this->belongsTo(Weapon::class);
+    }
     protected $fillable = [
         'variant_name',
         'variant_img',

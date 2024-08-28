@@ -8,6 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Tool extends Model
 {
     use HasFactory;
+    public function tool_type() {
+        return $this->belongsTo(ToolType::class);
+    }
+    public function legendary_skins() {
+        return $this->hasMany(LegendarySkin::class);
+    }
     protected $fillable = [
         'tool_name',
         'tool_img',

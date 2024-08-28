@@ -8,6 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class CustomAmmo extends Model
 {
     use HasFactory;
+    public function weapons() {
+        return $this->belongsToMany(Weapon::class);
+    }
     protected $fillable = [
         'name'
     ];
