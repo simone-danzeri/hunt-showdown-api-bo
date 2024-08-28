@@ -19,7 +19,7 @@ return new class extends Migration
             ->constrained()
             ->onDelete('cascade');
             $table->string('name')->unique();
-            $table->striing('img')->nullable();
+            $table->string('img')->nullable();
             $table->unsignedSmallInteger('light_melee_dmg');
             $table->unsignedSmallInteger('heavy_melee_dmg');
             $table->unsignedSmallInteger('damage');
