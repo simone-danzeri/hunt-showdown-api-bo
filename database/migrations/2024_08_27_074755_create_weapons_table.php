@@ -15,19 +15,20 @@ return new class extends Migration
     {
         Schema::create('weapons', function (Blueprint $table) {
             $table->id();
+            $table->string('weapon_name')->unique();
+            $table->string('weapon_img')->nullable();
             $table->foreignId('bullet_type_id')
             ->constrained()
             ->onDelete('cascade');
             $table->foreignId('slot_id')
             ->constrained()
             ->onDelete('cascade');
-            $table->string('weapon_name')->unique();
-            $table->string('weapon_img')->nullable();
             $table->unsignedTinyInteger('ammo_reserve');
             $table->unsignedSmallInteger('bullet_speed')->nullable();
             $table->unsignedSmallInteger('sway')->nullable();
             $table->unsignedSmallInteger('effective_range');
-            $table->unsignedTinyInteger('reload_time')->nullable();
+            $table->decimal('reload_time')->nullable();
+            $table->decimal('cycle_time')->nullable();
             $table->unsignedSmallInteger('light_melee_dmg');
             $table->unsignedSmallInteger('heavy_melee_dmg');
             $table->unsignedSmallInteger('cost');

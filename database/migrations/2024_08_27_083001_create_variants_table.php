@@ -15,19 +15,20 @@ return new class extends Migration
     {
         Schema::create('variants', function (Blueprint $table) {
             $table->id();
+            $table->string('variant_name')->unique();
+            $table->string('variant_img')->nullable();
             $table->foreignId('weapon_id')
             ->constrained()
             ->onDelete('cascade');
             $table->foreignId('slot_id')
             ->constrained()
             ->onDelete('cascade');
-            $table->string('variant_name')->unique();
-            $table->string('variant_img')->nullable();
             $table->unsignedTinyInteger('ammo_reserve');
             $table->unsignedSmallInteger('bullet_speed');
             $table->unsignedSmallInteger('sway');
             $table->unsignedSmallInteger('effective_range');
-            $table->unsignedTinyInteger('reload_time');
+            $table->decimal('reload_time');
+            $table->decimal('cycle_time')->nullable();
             $table->unsignedSmallInteger('light_melee_dmg');
             $table->unsignedSmallInteger('heavy_melee_dmg');
             $table->unsignedSmallInteger('cost');

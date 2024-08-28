@@ -9,6 +9,9 @@ use Database\Seeders\GameModeSeeder;
 use Database\Seeders\GameTraitSeeder;
 use Database\Seeders\BossSeeder;
 use Database\Seeders\EnemySeeder;
+use Database\Seeders\BulletTypeSeeder;
+use Database\Seeders\SlotSeeder;
+use Database\Seeders\WeaponSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -31,6 +34,10 @@ class DatabaseSeeder extends Seeder
             GameTraitSeeder::class,
             BossSeeder::class,
             EnemySeeder::class,
+            // Here (may) starts the relations problems
+            BulletTypeSeeder::class,
+            SlotSeeder::class,
+            WeaponSeeder::class,
         ]);
     }
 }
