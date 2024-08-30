@@ -4,8 +4,9 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Weapon;
 
-class WeaponConntroller extends Controller
+class WeaponController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +15,8 @@ class WeaponConntroller extends Controller
      */
     public function index()
     {
-        //
+        $weapons = Weapon::all();
+        return view('admin.weapons.index', compact('weapons'));
     }
 
     /**
