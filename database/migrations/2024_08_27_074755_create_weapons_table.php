@@ -23,6 +23,7 @@ return new class extends Migration
             $table->foreignId('slot_id')
             ->constrained()
             ->onDelete('cascade');
+            $table->unsignedSmallInteger('damage');
             $table->unsignedTinyInteger('ammo_reserve');
             $table->unsignedSmallInteger('bullet_speed')->nullable();
             $table->unsignedSmallInteger('sway')->nullable();

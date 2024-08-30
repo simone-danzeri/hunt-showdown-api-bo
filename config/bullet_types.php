@@ -4,5 +4,6 @@ return [
     'medium ammo',
     'long ammo',
     'special ammo',
+    'shotgun shell',
     'no ammo'
 ];
