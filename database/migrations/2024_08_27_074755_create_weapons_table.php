@@ -24,10 +24,10 @@ return new class extends Migration
             ->constrained()
             ->onDelete('cascade');
             $table->unsignedSmallInteger('damage');
-            $table->unsignedTinyInteger('ammo_reserve');
+            $table->unsignedTinyInteger('ammo_reserve')->nullable();
             $table->unsignedSmallInteger('bullet_speed')->nullable();
             $table->unsignedSmallInteger('sway')->nullable();
-            $table->unsignedSmallInteger('effective_range');
+            $table->unsignedSmallInteger('effective_range')->nullable();
             $table->decimal('reload_time')->nullable();
             $table->decimal('cycle_time')->nullable();
             $table->unsignedSmallInteger('light_melee_dmg');
