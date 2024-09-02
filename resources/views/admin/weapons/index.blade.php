@@ -9,7 +9,6 @@
                   <th scope="col">Damage</th>
                   <th scope="col">Ammo Reserve</th>
                   <th scope="col">Bullet Speed</th>
-                  <th scope="col">Sway</th>
                   <th scope="col">Effective Range</th>
                   <th scope="col">Reload Time</th>
                   <th scope="col">Cycle Time</th>
@@ -25,7 +24,6 @@
                     <td>{{ $weapon->damage }}</td>
                     <td>{{ $weapon->ammo_reserve }}</td>
                     <td>{{ $weapon->bullet_speed }} m/s</td>
-                    <td>{{ $weapon->sway }}</td>
                     <td>{{ $weapon->effective_range }} m</td>
                     <td>{{ $weapon->reload_time }} s</td>
                     <td>{{ $weapon->cycle_time }} s</td>

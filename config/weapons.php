@@ -188,23 +188,6 @@ return [
         "summary" => "Renowned, large-bore, single-shot rifle with good sights. Can put down a bison across a prairie."
     ],
     [
-        "weapon_name" => "Sparks LRR",
-        "bullet_type_id" => 3,
-        "slot_id" => 3,
-        "damage" => 149,
-        "weapon_img" => "weapons/sparks.jpg",
-        "ammo_reserve" => 16,
-        "bullet_speed" => 533,
-        "sway" => 77,
-        "effective_range" => 347,
-        "reload_time" => 4,
-        "cycle_time" => 5.7,
-        "light_melee_dmg" => 27,
-        "heavy_melee_dmg" => 54,
-        "cost" => 130,
-        "summary" => "Renowned, large-bore, single-shot rifle with good sights. Can put down a bison across a prairie."
-    ],
-    [
         "weapon_name" => "Martini Henry IC1",
         "bullet_type_id" => 3,
         "slot_id" => 3,
