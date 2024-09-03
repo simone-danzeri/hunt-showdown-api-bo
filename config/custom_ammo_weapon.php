@@ -278,6 +278,10 @@ return [
     ],
     [
         "weapon_id" => 23,
+        "custom_ammo_id" => 1
+    ],
+    [
+        "weapon_id" => 23,
         "custom_ammo_id" => 2
     ],
     [
