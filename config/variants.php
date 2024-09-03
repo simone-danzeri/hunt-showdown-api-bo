@@ -1,11 +1,11 @@
 <?php
 return [
     [
-        "weapon_name" => "Romero 77 Handcannon",
+        "variant_name" => "Romero 77 Handcannon",
         "bullet_type_id" => 4,
         "slot_id" => 2,
         "damage" => 165,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 11,
         "bullet_speed" => 375,
         "sway" => 133,
@@ -18,11 +18,11 @@ return [
         "summary" => "The Romero 77 Handcannon is a sawn-off break-action single barrel shotgun. Easier to handle in tight spaces. Less accurate over long range."
     ],
     [
-        "weapon_name" => "Romero 77 Hatchet",
+        "variant_name" => "Romero 77 Hatchet",
         "bullet_type_id" => 4,
         "slot_id" => 2,
         "damage" => 145,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 11,
         "bullet_speed" => 375,
         "sway" => 133,
@@ -35,11 +35,11 @@ return [
         "summary" => "The Romero 77 Hatchet is a sawn-off break-action single barrel shotgun. Easier to handle in tight spaces. Less accurate over long range. Hatchet causes rending damage."
     ],
     [
-        "weapon_name" => "Mosin-Nagant M1891 Obrez",
+        "variant_name" => "Mosin-Nagant M1891 Obrez",
         "bullet_type_id" => 3,
         "slot_id" => 2,
         "damage" => 133,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 15,
         "bullet_speed" => 550,
         "sway" => 133,
@@ -52,11 +52,11 @@ return [
         "summary" => "Sawn-off variant of the Mosin-Nagant bolt-action rifle. Can be carried as a backup weapon that packs a punch, but without a stock its recoil is brutal."
     ],
     [
-        "weapon_name" => "Mosin-Nagant M1891 Obrez Drum",
+        "variant_name" => "Mosin-Nagant M1891 Obrez Drum",
         "bullet_type_id" => 3,
         "slot_id" => 2,
         "damage" => 133,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 15,
         "bullet_speed" => 550,
         "sway" => 133,
@@ -69,11 +69,11 @@ return [
         "summary" => "This shortened Russian service rifle is outfitted with an extended Drum magazine, giving it a huge capacity for ammunition."
     ],
     [
-        "weapon_name" => "Mosin-Nagant M1891 Obrez Mace",
+        "variant_name" => "Mosin-Nagant M1891 Obrez Mace",
         "bullet_type_id" => 3,
         "slot_id" => 2,
         "damage" => 133,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 15,
         "bullet_speed" => 550,
         "sway" => 133,
@@ -86,11 +86,11 @@ return [
         "summary" => "This shortened Russian service rifle has been additionally modified with a weighted mace stock, making it a competent melee weapon."
     ],
     [
-        "weapon_name" => "Mosin-Nagant M1891 Bayonet",
+        "variant_name" => "Mosin-Nagant M1891 Bayonet",
         "bullet_type_id" => 3,
         "slot_id" => 3,
         "damage" => 136,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 15,
         "bullet_speed" => 550,
         "sway" => 77,
@@ -103,11 +103,11 @@ return [
         "summary" => "Modern Imperial Russian bolt-action service rifle with an internal magazine. Its attached spike bayonet turns it into a frightening melee weapon."
     ],
     [
-        "weapon_name" => "Mosin-Nagant M1891 Sniper",
+        "variant_name" => "Mosin-Nagant M1891 Sniper",
         "bullet_type_id" => 3,
         "slot_id" => 2,
         "damage" => 136,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 15,
         "bullet_speed" => 550,
         "sway" => 69,
@@ -120,11 +120,11 @@ return [
         "summary" => "Modern Imperial Russian bolt-action service rifle. The attached long scope provides accuracy at range, but prevents the use of stripper clips for fast reloading."
     ],
     [
-        "weapon_name" => "Mosin-Nagant M1891 Avtomat",
+        "variant_name" => "Mosin-Nagant M1891 Avtomat",
         "bullet_type_id" => 3,
         "slot_id" => 3,
         "damage" => 136,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 15,
         "bullet_speed" => 615,
         "sway" => 133,
@@ -137,11 +137,11 @@ return [
         "summary" => "The Mosin-Nagant M1891 Avtomat is a heavily modified fully automatic Russian service rifle with an increased internal magazine."
     ],
     [
-        "weapon_name" => "Romero 77 Talon",
+        "variant_name" => "Romero 77 Talon",
         "bullet_type_id" => 4,
         "slot_id" => 3,
         "damage" => 218,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 13,
         "bullet_speed" => 425,
         "sway" => 77,
@@ -154,11 +154,11 @@ return [
         "summary" => "Classic break-action shotgun with a long barrel. Decent power, range, and attached blades for close combat make this a very flexible weapon to bring along."
     ],
     [
-        "weapon_name" => "Winfield 1893 Slate Riposte",
+        "variant_name" => "Winfield 1893 Slate Riposte",
         "bullet_type_id" => 4,
         "slot_id" => 3,
         "damage" => 203,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 12,
         "bullet_speed" => 425,
         "sway" => 84,
@@ -171,11 +171,11 @@ return [
         "summary" => "Exposed hammer, pump-action Winfield Model 93 shotgun with bayonet affixed for mastery of close quarter combat."
     ],
     [
-        "weapon_name" => "Caldwell Rival 78 Trauma",
+        "variant_name" => "Caldwell Rival 78 Trauma",
         "bullet_type_id" => 4,
         "slot_id" => 3,
         "damage" => 190,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 8,
         "bullet_speed" => 425,
         "sway" => 77,
@@ -188,11 +188,11 @@ return [
         "summary" => "Sturdy, break-action, side-by-side shotgun with a medium-length barrel that can destroy all but the toughest targets at close range. Provided with a mace at the end of the handle."
     ],
     [
-        "weapon_name" => "Caldwell Rival 78 Handcannon",
+        "variant_name" => "Caldwell Rival 78 Handcannon",
         "bullet_type_id" => 4,
         "slot_id" => 3,
         "damage" => 105,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 8,
         "bullet_speed" => 350,
         "sway" => 133,
@@ -205,11 +205,11 @@ return [
         "summary" => "Sawn-off break-action side-by-side shotgun. Its wider spread but shorter range make this a great backup weapon."
     ],
     [
-        "weapon_name" => "Specter 1882 Bayonet",
+        "variant_name" => "Specter 1882 Bayonet",
         "bullet_type_id" => 4,
         "slot_id" => 3,
         "damage" => 190,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 14,
         "bullet_speed" => 400,
         "sway" => 84,
@@ -222,11 +222,11 @@ return [
         "summary" => "Rapid firing, pump-action shotgun with medium barrel. Tooled up with sharp knife bayonet for close combat."
     ],
     [
-        "weapon_name" => "Specter 1882 Compact",
+        "variant_name" => "Specter 1882 Compact",
         "bullet_type_id" => 4,
         "slot_id" => 2,
         "damage" => 113,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 12,
         "bullet_speed" => 350,
         "sway" => 87,
@@ -239,11 +239,11 @@ return [
         "summary" => "Sawn-off, rapid firing, pump-action shotgun. While sacrificing accuracy and ammo capacity, the added foregrip keeps recoil under control in close quarter combat."
     ],
     [
-        "weapon_name" => "Springfield 1866 Compact",
+        "variant_name" => "Springfield 1866 Compact",
         "bullet_type_id" => 2,
         "slot_id" => 2,
         "damage" => 130,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 25,
         "bullet_speed" => 440,
         "sway" => 93,
@@ -256,11 +256,11 @@ return [
         "summary" => "A shorter version of the classic breech-loading rifle with .50-70 caliber centerfire cartridges and a quick fire rate. Its sawn-off barrel and stock make the weapon hard to control, but a great backup."
     ],
     [
-        "weapon_name" => "Springfield 1866 Compact Deadeye",
+        "variant_name" => "Springfield 1866 Compact Deadeye",
         "bullet_type_id" => 2,
         "slot_id" => 2,
         "damage" => 130,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 25,
         "bullet_speed" => 440,
         "sway" => 133,
@@ -273,11 +273,11 @@ return [
         "summary" => 'Because of its compact size and mid-range scope, this rifle is considered the "pocket sniper" of the Springfield line.'
     ],
     [
-        "weapon_name" => "Springfield 1866 Compact Striker",
+        "variant_name" => "Springfield 1866 Compact Striker",
         "bullet_type_id" => 2,
         "slot_id" => 2,
         "damage" => 130,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 25,
         "bullet_speed" => 440,
         "sway" => 93,
@@ -290,11 +290,11 @@ return [
         "summary" => "A shorter, close-combat version of the classic breech-loading rifle with .50-70 caliber centerfire cartridges and a quick fire rate. The knife attached to its barrel can be used for both heavy and light melee attacks."
     ],
     [
-        "weapon_name" => "Springfield 1866 Marksman",
+        "variant_name" => "Springfield 1866 Marksman",
         "bullet_type_id" => 2,
         "slot_id" => 3,
         "damage" => 132,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 25,
         "bullet_speed" => 490,
         "sway" => 77,
@@ -307,11 +307,11 @@ return [
         "summary" => 'A shorter, scoped version of the classic breech-loading rifle with .50-70 caliber centerfire cartridges, quick fire rate, and stock. The scope is ideal to aid long-range shots.'
     ],
     [
-        "weapon_name" => "Springfield 1866 Bayonet",
+        "variant_name" => "Springfield 1866 Bayonet",
         "bullet_type_id" => 2,
         "slot_id" => 3,
         "damage" => 132,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 25,
         "bullet_speed" => 490,
         "sway" => 69,
@@ -324,11 +324,11 @@ return [
         "summary" => "The original breech-loading Springfield 1866 with bayonet attachment, a powerful short-range addition."
     ],
     [
-        "weapon_name" => "Caldwell Conversion Uppercut Precision",
+        "variant_name" => "Caldwell Conversion Uppercut Precision",
         "bullet_type_id" => 3,
         "slot_id" => 2,
         "damage" => 123,
-        "weapon_img" => "",
+        "variant_img" => "",
         "ammo_reserve" => 18,
         "bullet_speed" => 410,
         "sway" => 87,
