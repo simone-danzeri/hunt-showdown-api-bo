@@ -2,6 +2,7 @@
 return [
     [
         "variant_name" => "Romero 77 Handcannon",
+        "weapon_id" => 3,
         "slot_id" => 2,
         "damage" => 165,
         "variant_img" => "",
@@ -18,6 +19,7 @@ return [
     ],
     [
         "variant_name" => "Romero 77 Hatchet",
+        "weapon_id" => 3,
         "slot_id" => 2,
         "damage" => 145,
         "variant_img" => "",
@@ -34,6 +36,7 @@ return [
     ],
     [
         "variant_name" => "Mosin-Nagant M1891 Obrez",
+        "weapon_id" => 14,
         "slot_id" => 2,
         "damage" => 133,
         "variant_img" => "",
@@ -50,6 +53,7 @@ return [
     ],
     [
         "variant_name" => "Mosin-Nagant M1891 Obrez Drum",
+        "weapon_id" => 14,
         "slot_id" => 2,
         "damage" => 133,
         "variant_img" => "",
@@ -66,6 +70,7 @@ return [
     ],
     [
         "variant_name" => "Mosin-Nagant M1891 Obrez Mace",
+        "weapon_id" => 14,
         "slot_id" => 2,
         "damage" => 133,
         "variant_img" => "",
@@ -82,6 +87,7 @@ return [
     ],
     [
         "variant_name" => "Mosin-Nagant M1891 Bayonet",
+        "weapon_id" => 14,
         "slot_id" => 3,
         "damage" => 136,
         "variant_img" => "",
@@ -98,6 +104,7 @@ return [
     ],
     [
         "variant_name" => "Mosin-Nagant M1891 Sniper",
+        "weapon_id" => 14,
         "slot_id" => 2,
         "damage" => 136,
         "variant_img" => "",
@@ -114,6 +121,7 @@ return [
     ],
     [
         "variant_name" => "Mosin-Nagant M1891 Avtomat",
+        "weapon_id" => 14,
         "slot_id" => 3,
         "damage" => 136,
         "variant_img" => "",
@@ -130,6 +138,7 @@ return [
     ],
     [
         "variant_name" => "Romero 77 Talon",
+        "weapon_id" => 3,
         "slot_id" => 3,
         "damage" => 218,
         "variant_img" => "",
@@ -146,6 +155,7 @@ return [
     ],
     [
         "variant_name" => "Winfield 1893 Slate Riposte",
+        "weapon_id" => 6,
         "slot_id" => 3,
         "damage" => 203,
         "variant_img" => "",
@@ -162,6 +172,7 @@ return [
     ],
     [
         "variant_name" => "Caldwell Rival 78 Trauma",
+        "weapon_id" => 8,
         "slot_id" => 3,
         "damage" => 190,
         "variant_img" => "",
@@ -178,7 +189,7 @@ return [
     ],
     [
         "variant_name" => "Caldwell Rival 78 Handcannon",
-
+        "weapon_id" => 8,
         "slot_id" => 3,
         "damage" => 105,
         "variant_img" => "",
@@ -195,6 +206,7 @@ return [
     ],
     [
         "variant_name" => "Specter 1882 Bayonet",
+        "weapon_id" => 5,
         "slot_id" => 3,
         "damage" => 190,
         "variant_img" => "",
@@ -211,6 +223,7 @@ return [
     ],
     [
         "variant_name" => "Specter 1882 Compact",
+        "weapon_id" => 5,
         "slot_id" => 2,
         "damage" => 113,
         "variant_img" => "",
@@ -227,7 +240,7 @@ return [
     ],
     [
         "variant_name" => "Springfield 1866 Compact",
-
+        "weapon_id" => 16,
         "slot_id" => 2,
         "damage" => 130,
         "variant_img" => "",
@@ -244,6 +257,7 @@ return [
     ],
     [
         "variant_name" => "Springfield 1866 Compact Deadeye",
+        "weapon_id" => 16,
         "slot_id" => 2,
         "damage" => 130,
         "variant_img" => "",
@@ -260,6 +274,7 @@ return [
     ],
     [
         "variant_name" => "Springfield 1866 Compact Striker",
+        "weapon_id" => 16,
         "slot_id" => 2,
         "damage" => 130,
         "variant_img" => "",
@@ -276,7 +291,7 @@ return [
     ],
     [
         "variant_name" => "Springfield 1866 Marksman",
-
+        "weapon_id" => 16,
         "slot_id" => 3,
         "damage" => 132,
         "variant_img" => "",
@@ -293,6 +308,7 @@ return [
     ],
     [
         "variant_name" => "Springfield 1866 Bayonet",
+        "weapon_id" => 16,
         "slot_id" => 3,
         "damage" => 132,
         "variant_img" => "",
@@ -309,6 +325,7 @@ return [
     ],
     [
         "variant_name" => "Caldwell Conversion Uppercut Precision",
+        "weapon_id" => 31,
         "slot_id" => 2,
         "damage" => 123,
         "variant_img" => "",

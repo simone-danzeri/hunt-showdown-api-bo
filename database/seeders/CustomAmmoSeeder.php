@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\CustomAmmo;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -14,6 +15,11 @@ class CustomAmmoSeeder extends Seeder
      */
     public function run()
     {
-        //
+        $allCustomAmmos = config('custom_ammos');
+        foreach($allCustomAmmos as $eachCustomAmmo) {
+            $newCustomAmmo = new CustomAmmo();
+            $newCustomAmmo->name = $eachCustomAmmo;
+            $newCustomAmmo->save();
+        }
     }
 }
