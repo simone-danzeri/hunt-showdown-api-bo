@@ -12,6 +12,7 @@ use Database\Seeders\EnemySeeder;
 use Database\Seeders\BulletTypeSeeder;
 use Database\Seeders\SlotSeeder;
 use Database\Seeders\WeaponSeeder;
+use Database\Seeders\VariantSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -38,6 +39,7 @@ class DatabaseSeeder extends Seeder
             BulletTypeSeeder::class,
             SlotSeeder::class,
             WeaponSeeder::class,
+            VariantSeeder::class,
         ]);
     }
 }
