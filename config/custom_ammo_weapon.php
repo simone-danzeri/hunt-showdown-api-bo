@@ -464,4 +464,24 @@ return [
         "weapon_id" => 41,
         "custom_ammo_id" => 22
     ],
+    [
+        "weapon_id" => 44,
+        "custom_ammo_id" => 2
+    ],
+    [
+        "weapon_id" => 44,
+        "custom_ammo_id" => 6
+    ],
+    [
+        "weapon_id" => 44,
+        "custom_ammo_id" => 9
+    ],
+    [
+        "weapon_id" => 44,
+        "custom_ammo_id" => 10
+    ],
+    [
+        "weapon_id" => 44,
+        "custom_ammo_id" => 12
+    ],
 ];

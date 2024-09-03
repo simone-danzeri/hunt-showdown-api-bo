@@ -731,4 +731,21 @@ return [
         "cost" => 45,
         "summary" => "Large mallet designed to hammer railroad spikes into their tracks, repurposed to hammer heads into the dirt."
     ],
+    [
+        "weapon_name" => "Haymaker",
+        "bullet_type_id" => 3,
+        "slot_id" => 2,
+        "damage" => 120,
+        "weapon_img" => "weapons/haymaker.jpg",
+        "ammo_reserve" => 18,
+        "bullet_speed" => 530,
+        "sway" => 128,
+        "effective_range" => 112,
+        "reload_time" => 21.8,
+        "cycle_time" => 1.3,
+        "light_melee_dmg" => 13,
+        "heavy_melee_dmg" => 31,
+        "cost" => 370,
+        "summary" => "Two-handed advancement on the LeMat Mark II that trades speed for power, and uses Long Ammo."
+    ],
 ];
