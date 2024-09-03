@@ -13,6 +13,8 @@ use Database\Seeders\BulletTypeSeeder;
 use Database\Seeders\SlotSeeder;
 use Database\Seeders\WeaponSeeder;
 use Database\Seeders\VariantSeeder;
+use Database\Seeders\CustomAmmoSeeder;
+use Database\Seeders\CustomAmmoWeaponSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -40,6 +42,8 @@ class DatabaseSeeder extends Seeder
             SlotSeeder::class,
             WeaponSeeder::class,
             VariantSeeder::class,
+            CustomAmmoSeeder::class,
+            CustomAmmoWeaponSeeder::class,
         ]);
     }
 }

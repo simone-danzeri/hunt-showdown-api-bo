@@ -17,5 +17,9 @@ return [
     "Chaos Bolt",
     "Choke Bolt",
     "Explosive Bolt",
-    "Shot Bolt"
+    "Shot Bolt",
+    "Steel Balls",
+    "Poison Arrows",
+    "Concertina Arrows",
+    "Frag Arrows"
 ];
