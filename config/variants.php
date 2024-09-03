@@ -2,7 +2,6 @@
 return [
     [
         "variant_name" => "Romero 77 Handcannon",
-        "bullet_type_id" => 4,
         "slot_id" => 2,
         "damage" => 165,
         "variant_img" => "",
@@ -19,7 +18,6 @@ return [
     ],
     [
         "variant_name" => "Romero 77 Hatchet",
-        "bullet_type_id" => 4,
         "slot_id" => 2,
         "damage" => 145,
         "variant_img" => "",
@@ -36,7 +34,6 @@ return [
     ],
     [
         "variant_name" => "Mosin-Nagant M1891 Obrez",
-        "bullet_type_id" => 3,
         "slot_id" => 2,
         "damage" => 133,
         "variant_img" => "",
@@ -53,7 +50,6 @@ return [
     ],
     [
         "variant_name" => "Mosin-Nagant M1891 Obrez Drum",
-        "bullet_type_id" => 3,
         "slot_id" => 2,
         "damage" => 133,
         "variant_img" => "",
@@ -70,7 +66,6 @@ return [
     ],
     [
         "variant_name" => "Mosin-Nagant M1891 Obrez Mace",
-        "bullet_type_id" => 3,
         "slot_id" => 2,
         "damage" => 133,
         "variant_img" => "",
@@ -87,7 +82,6 @@ return [
     ],
     [
         "variant_name" => "Mosin-Nagant M1891 Bayonet",
-        "bullet_type_id" => 3,
         "slot_id" => 3,
         "damage" => 136,
         "variant_img" => "",
@@ -104,7 +98,6 @@ return [
     ],
     [
         "variant_name" => "Mosin-Nagant M1891 Sniper",
-        "bullet_type_id" => 3,
         "slot_id" => 2,
         "damage" => 136,
         "variant_img" => "",
@@ -121,7 +114,6 @@ return [
     ],
     [
         "variant_name" => "Mosin-Nagant M1891 Avtomat",
-        "bullet_type_id" => 3,
         "slot_id" => 3,
         "damage" => 136,
         "variant_img" => "",
@@ -138,7 +130,6 @@ return [
     ],
     [
         "variant_name" => "Romero 77 Talon",
-        "bullet_type_id" => 4,
         "slot_id" => 3,
         "damage" => 218,
         "variant_img" => "",
@@ -155,7 +146,6 @@ return [
     ],
     [
         "variant_name" => "Winfield 1893 Slate Riposte",
-        "bullet_type_id" => 4,
         "slot_id" => 3,
         "damage" => 203,
         "variant_img" => "",
@@ -172,7 +162,6 @@ return [
     ],
     [
         "variant_name" => "Caldwell Rival 78 Trauma",
-        "bullet_type_id" => 4,
         "slot_id" => 3,
         "damage" => 190,
         "variant_img" => "",
@@ -189,7 +178,7 @@ return [
     ],
     [
         "variant_name" => "Caldwell Rival 78 Handcannon",
-        "bullet_type_id" => 4,
+
         "slot_id" => 3,
         "damage" => 105,
         "variant_img" => "",
@@ -206,7 +195,6 @@ return [
     ],
     [
         "variant_name" => "Specter 1882 Bayonet",
-        "bullet_type_id" => 4,
         "slot_id" => 3,
         "damage" => 190,
         "variant_img" => "",
@@ -223,7 +211,6 @@ return [
     ],
     [
         "variant_name" => "Specter 1882 Compact",
-        "bullet_type_id" => 4,
         "slot_id" => 2,
         "damage" => 113,
         "variant_img" => "",
@@ -240,7 +227,7 @@ return [
     ],
     [
         "variant_name" => "Springfield 1866 Compact",
-        "bullet_type_id" => 2,
+
         "slot_id" => 2,
         "damage" => 130,
         "variant_img" => "",
@@ -257,7 +244,6 @@ return [
     ],
     [
         "variant_name" => "Springfield 1866 Compact Deadeye",
-        "bullet_type_id" => 2,
         "slot_id" => 2,
         "damage" => 130,
         "variant_img" => "",
@@ -274,7 +260,6 @@ return [
     ],
     [
         "variant_name" => "Springfield 1866 Compact Striker",
-        "bullet_type_id" => 2,
         "slot_id" => 2,
         "damage" => 130,
         "variant_img" => "",
@@ -291,7 +276,7 @@ return [
     ],
     [
         "variant_name" => "Springfield 1866 Marksman",
-        "bullet_type_id" => 2,
+
         "slot_id" => 3,
         "damage" => 132,
         "variant_img" => "",
@@ -308,7 +293,6 @@ return [
     ],
     [
         "variant_name" => "Springfield 1866 Bayonet",
-        "bullet_type_id" => 2,
         "slot_id" => 3,
         "damage" => 132,
         "variant_img" => "",
@@ -325,7 +309,6 @@ return [
     ],
     [
         "variant_name" => "Caldwell Conversion Uppercut Precision",
-        "bullet_type_id" => 3,
         "slot_id" => 2,
         "damage" => 123,
         "variant_img" => "",
