@@ -29,6 +29,8 @@ return new class extends Migration
             $table->unsignedSmallInteger('throw_range')->nullable();
             $table->unsignedSmallInteger('fuse_timer')->nullable();
             $table->unsignedSmallInteger('effective_range')->nullable();
+            $table->unsignedSmallInteger('cost');
+            $table->text('summary')->nullable();
             $table->timestamps();
         });
     }
