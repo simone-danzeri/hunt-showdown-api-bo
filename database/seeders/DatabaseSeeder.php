@@ -16,6 +16,7 @@ use Database\Seeders\VariantSeeder;
 use Database\Seeders\CustomAmmoSeeder;
 use Database\Seeders\CustomAmmoWeaponSeeder;
 use Database\Seeders\ToolTypeSeeder;
+use Database\Seeders\ConsumableTypeSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -46,6 +47,7 @@ class DatabaseSeeder extends Seeder
             CustomAmmoSeeder::class,
             CustomAmmoWeaponSeeder::class,
             ToolTypeSeeder::class,
+            ConsumableTypeSeeder::class,
         ]);
     }
 }
