@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\BulletType;
+use App\Models\Slot;
 use Illuminate\Http\Request;
 use App\Models\Weapon;
 
@@ -46,9 +48,11 @@ class WeaponController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Weapon $weapon)
     {
-        //
+        $bulletType = BulletType::all();
+        $slot = Slot::all();
+        return view('admin.weapons.show', compact('weapon', 'bulletType', 'slot'));
     }
 
     /**

@@ -30,7 +30,7 @@ return [
         "map_name" => "Mammon's Gluch",
         "slug" => "mammons-gluch",
         "date_of_release" => "15-08-2024",
-        "summary" => "DeSalle is one of the four Maps in Hunt Showdown 1896 and is the first map located in Colorado.",
+        "summary" => "Mammon's Gluch is one of the four Maps in Hunt Showdown 1896 and is the first map located in Colorado.",
         "number_of_compouds" => 16
     ]
 ];
