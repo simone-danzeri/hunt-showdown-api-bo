@@ -45,6 +45,15 @@
     border: none !important;
 }
 
+.ms-card-border-on{
+    border: 1px solid $font_colour;
+    border-radius: 10px;
+}
+
+.ms-no-decoration{
+    text-decoration: none;
+}
+
 .ms-login-mt{
     margin-top: 15vh !important;
 }

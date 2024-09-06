@@ -3,7 +3,10 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Variant;
 use Illuminate\Http\Request;
+use App\Models\Weapon;
+use App\Models\Slot;
 
 class VariantController extends Controller
 {
@@ -12,9 +15,12 @@ class VariantController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index($weaponSlug)
     {
-        //
+        $weapon = Weapon::all()->where('slug', '=', $weaponSlug)->first();
+        $variants = Variant::where('weapon_id', '=', $weapon['id'])->get();
+        //dd($variants);
+        return view('admin.variants.index', compact('variants', 'weapon'));
     }
 
     /**
@@ -44,9 +50,11 @@ class VariantController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($weaponSlug, Variant $variant)
     {
-        //
+        $slot = Slot::all();
+        $weapon = Weapon::all()->where('slug', '=', $weaponSlug)->first();
+        return view('admin.variants.show', compact('weapon', 'variant', 'slot'));
     }
 
     /**

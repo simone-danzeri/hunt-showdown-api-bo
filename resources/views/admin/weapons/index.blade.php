@@ -32,7 +32,7 @@
                         <td>{{ $weapon->heavy_melee_dmg }}</td>
                         <td>{{ $weapon->cost }} $</td>
                         <td class="d-flex flex-column gap-2">
-                            <a href="{{route('admin.weapons.show', ['weapon' => $weapon->id])}}" class="btn btn-success">View</a>
+                            <a href="{{route('admin.weapons.show', ['weapon' => $weapon->slug])}}" class="btn btn-success">View</a>
                             <a href="#" class="btn btn-warning">Edit</a>
                             <a href="#" class="btn btn-danger">Delete</a>
                         </td>

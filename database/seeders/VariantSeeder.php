@@ -5,6 +5,8 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\Variant;
+use Illuminate\Support\Str;
+
 
 class VariantSeeder extends Seeder
 {
@@ -19,6 +21,7 @@ class VariantSeeder extends Seeder
         foreach($allVariants as $eachVariant) {
             $newVariant = new Variant();
             $newVariant->fill($eachVariant);
+            $newVariant['slug'] = Str::slug($eachVariant['variant_name'], '-');
             $newVariant->save();
         }
     }

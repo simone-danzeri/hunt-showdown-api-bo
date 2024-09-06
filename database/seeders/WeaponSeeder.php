@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\Weapon;
+use Illuminate\Support\Str;
 
 class WeaponSeeder extends Seeder
 {
@@ -19,6 +20,7 @@ class WeaponSeeder extends Seeder
         foreach($allWeapons as $eachWeapon) {
             $newWeapon = new Weapon();
             $newWeapon->fill($eachWeapon);
+            $newWeapon['slug'] = Str::slug($eachWeapon['weapon_name'], '-');
             $newWeapon->save();
         }
     }

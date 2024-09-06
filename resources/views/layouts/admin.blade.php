@@ -69,6 +69,11 @@
                             Back to Weapons
                         </a>
                         @endif
+                        @if (Route::is('admin.variants.index'))
+                        <a href="{{route('admin.weapons.show', ['weapon' => $weapon->slug])}}" class="d-block btn ml-2 border border-light my-3 text-white">
+                            Back to Weapon
+                        </a>
+                        @endif
                     </div>
                 </nav>
                 <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 pt-3 ms-bg-primary">

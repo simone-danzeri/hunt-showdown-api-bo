@@ -17,6 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('variant_name')->unique();
             $table->string('variant_img')->nullable();
+            $table->string('slug');
             $table->foreignId('weapon_id')
             ->constrained()
             ->onDelete('cascade');

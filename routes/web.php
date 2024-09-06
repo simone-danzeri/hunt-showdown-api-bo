@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\VariantController;
 use App\Http\Controllers\Admin\WeaponController;
 
 /*
@@ -30,7 +31,12 @@ Route::middleware(['auth', 'verified'])
 ->prefix('admin')
 ->group(function() {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-    Route::resource('/weapons', WeaponController::class);
+    Route::resource('/weapons', WeaponController::class)->parameters([
+        'weapons' => 'weapon:slug'
+    ]);
+    Route::resource('{weapon}/variants', VariantController::class)->parameters([
+        'variants' => 'variant:slug'
+    ]);
 });
 
 
